@@ -1,0 +1,188 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.logo a:hover {
+    color: yellow;
+
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    color: rgb(255, 4, 4);
+}
+
+header .logo h1 {
+    font-size: 1.8rem;
+}
+
+section {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.about a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.contact a{
+    text-decoration: inherit;
+    color: black;
+    font-weight: bolder;
+}
+
+
+.contact h2 {
+    font-weight: bolder;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.home {
+    background: #f4f4f4;
+    padding: 4rem 1rem;
+}
+
+.home .intro p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.about, .portfolio, .contact {
+    background: #fff;
+    margin-bottom: 2rem;
+}
+
+.project {
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+    text-align: left;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+.project a {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.project a:hover {
+    background: #555;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #555;
+}
+
+.socials a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer img {
+    width: 68px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 16px;
+    margin-bottom: 6px;
+}
+
+footer .nav-links{
+    display: flex;
+    margin-top: -50px;
+    margin-left: 40px;
+}
+
+footer li a img {
+        margin-top: -3px;
+        width: 2vw;
+}
+
+footer p {
+    margin: 12px;
+}
